@@ -19,9 +19,9 @@ class SplashPage extends StatelessWidget {
           ),
         ),
         child: const Text(
-          "Sistema de Pesagem Avulsa",
+          "Controle Eletronico de Pesagem",
           style: TextStyle(
-            fontSize: 30.0,
+            fontSize: 20.0,
             fontWeight: FontWeight.w700,
             color: Color(0xFFFFFFFF),
           ),
