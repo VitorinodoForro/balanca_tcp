@@ -1,4 +1,4 @@
-import 'dart:ui';
+import 'package:flutter/material.dart';
 
 class AppCollors {
   AppCollors._();
@@ -13,7 +13,7 @@ class AppCollors {
     Color(0xFFB5B5B5),
     Color(0xFF7F7F7F),
   ];
-  static const Color white = Color(0xFFFFFFFF);
+  // static const Color white = Color(0xFFFFFFFF);
   static const Color iceWhite = Color(0xFFEEF8F7);
   static const Color antiFlashWhite = Color(0xFFF0F6F5);
   static const Color blackGrey = Color(0xFF222222);
@@ -26,4 +26,8 @@ class AppCollors {
   static const Color income = Color(0xFF25A969);
   static const Color outcome = Color(0xFFF95B51);
   static const Color notification = Color(0xFFFFAB7B);
+  static const Color white = Colors.white;
+  static const Color black = Colors.black;
+
+  static const double appPadding = 20.0;
 }
